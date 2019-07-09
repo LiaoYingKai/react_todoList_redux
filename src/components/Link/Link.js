@@ -3,7 +3,7 @@ import React from 'react'
 const Link = ({active,children,onClick})=>{
   if(active){
     return (
-      <div>{children}</div>
+      <span>{children}</span>
     )
   }
   return(
